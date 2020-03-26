@@ -1,2 +1,3 @@
 # docutils-plugin-prismjs
-Prism plugin for docutils.
+
+> Prism.js plugin for docutils.

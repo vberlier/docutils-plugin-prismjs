@@ -1,0 +1,40 @@
+{
+  "name": "docutils-plugin-prismjs",
+  "version": "0.0.0",
+  "description": "Prism.js plugin for docutils",
+  "author": "Valentin Berlier <berlier.v@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "docutils",
+    "reStructuredText",
+    "sphinx",
+    "prismjs",
+    "syntax-highlighting"
+  ],
+  "homepage": "https://github.com/vberlier/docutils-plugin-prismjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vberlier/docutils-plugin-prismjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vberlier/docutils-plugin-prismjs/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "postversion": "git push --follow-tags"
+  },
+  "devDependencies": {},
+  "files": [
+    "lib/*.js"
+  ],
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prismjs": "^1.19.0"
+  }
+}
